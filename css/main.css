@@ -45,3 +45,35 @@ html {
 li {
   list-style-type: none;
 }
+
+.dashboard-stats,
+.dashboard-videos {
+  border: #6feff9 dashed 1px;
+}
+
+#yellow {
+  fill: #ffd31d;
+}
+
+#red {
+  fill: #f62e52;
+}
+
+#yellow,
+#red {
+  animation: chart 1s linear forwards;
+  transform-origin: 0 759px;
+  transform: scaleY(0);
+}
+
+@keyframes chart {
+
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+
+}
