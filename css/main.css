@@ -3,3 +3,24 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.warning {
+  animation: warning 1s ease-in-out infinite;
+  transform-origin: 681px 1356px;
+}
+
+@keyframes warning {
+
+  0% {
+    transform: scale(.90, .90);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(.90, .90);
+  }
+
+}
