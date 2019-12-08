@@ -77,3 +77,15 @@ li {
   }
 
 }
+
+.labels {
+  border: #6feff9 dashed 1px;
+  top: 0;
+  right: 0;
+  padding: .2rem .75rem;
+  margin: 0;
+}
+
+.shadow {
+  text-shadow: 1px 1px 10px #6feff9;
+}
