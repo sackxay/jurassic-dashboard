@@ -12,7 +12,7 @@ html {
 @keyframes warning {
 
   0% {
-    transform: scale(.90, .90);
+    transform: scale(.9, .9);
   }
 
   50% {
@@ -20,7 +20,28 @@ html {
   }
 
   100% {
-    transform: scale(.90, .90);
+    transform: scale(.9, .9);
   }
 
+}
+
+.action-tools-top,
+.action-tools-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.action-tools-top {
+  border-top: #6feff9 dashed 1px;
+  border-bottom: #6feff9 dashed 1px;
+  border-left: #6feff9 dashed 1px;
+  padding: .5rem;
+}
+
+.action-btn svg {
+  color: #6feff9;
+}
+
+li {
+  list-style-type: none;
 }
